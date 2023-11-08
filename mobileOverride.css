@@ -1,0 +1,65 @@
+@media screen and (max-width:600px){
+   .menu>li>a{
+        color:black;
+    
+    }
+    .menu>li{
+        background-color: grey;
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    html{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+    p,.rightText{
+        font-size: 1rem;
+       text-align: center;
+    }
+    
+    .fullScreenDiv{
+        clear:both;
+        display:inline-block;
+        
+    }
+    .inDivText{
+        width: 100%;
+    }
+    .fullScreenDiv{
+        width: 100%;
+    }
+    #couleur{
+        clear:both;
+        height: auto;
+        display: block;
+    }
+    #boutonLien{
+        border-color: black 10px solid;
+    }
+    #showMenu:checked ~ ul{
+        display:inline-block;
+    }
+    .button-27{
+        width: 50%;
+    }
+    #menuLbl{
+        display: inline-block;
+    }
+    #mainContactDiv{
+        display: block;
+
+    }
+    #contactForm{
+        display:block;
+        width: 100%;
+    }
+    #googleEmbed{
+        margin-top: 5vh;
+        width: 100%;
+        height: 40vh;
+    }
+}

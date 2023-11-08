@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Mobi & co
+        </title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <link href="mobileOverride.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Foldit&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+             <div id="mainBan">
+                  <h1 id="starborn">Mobil & co</h1>    
+             </div>     
+        </header>
+        <main>
+            <nav>
+                <input type="checkbox" name="checkMenu" id="showMenu">
+                <label id="menuLbl" name="checkMenu" for="showMenu">
+                    <img id="menuIcon" src="img/round_hamburger_menu_burger_icon_132782.png" alt="">
+                </label>
+                <ul class="menu">
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#">Tendances</a>
+                    </li>
+                    <li>
+                        <a href="#">Produits</a>
+                        <ul class="deudey">
+                             <li><a href="#">Mobilier</a></li>
+                             <li><a href="#">Peinture</a></li>
+                             <li><a href="#">Papier Peint</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Conceptualisation</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                     </li>
+                </ul>
+                <div id="divCart">
+                    <img id="cart" alt="oops" src="img/cart-basket-for-online-shops.svg">
+                </div>
+          </nav>
+              <!-- <form method="post" action="form.php">
+                        <div class="champ" >
+                            <label for="mail">entrez le mail</label>
+                            <input name="mail" type="email" id="mail">
+                        </div>
+                        <div class="champ" >
+                            <label for="pseudo">entrez le pseudo</label>
+                            <input name="pseudo" type="text" id="pseudo">
+                        </div>
+                        <div class="champ" >
+                            <label for="pass">entrez le pass</label>
+                            <input name="pass" type="password" id="pass">
+                        </div>
+                        
+                        <div class="champ">
+                            <input type="submit" value="envoyer">
+                        </div>
+                    
+                </form> -->
+                <!-- <form method="post" action="form.php">
+                    <fieldset id="infoPerso">
+                        <legend>Informations personnelles :</legend>
+                        <div class="champ" >
+                            <label class="labInfoPerso" for="   ">Nom de famille :</label>
+                            <input name="nomFamille" type="text" id="nomFamille" >
+                        </div>
+                        <div class="champ" >
+                            <label class="labInfoPerso" for="prenom">Prénom :</label>
+                            <input name="prenom" type="text" id="prenom" >
+                        </div>
+                        <div class="champ" >
+                            <label class="labInfoPerso" for="mail">Adresse Email : </label>
+                            <input name="mail" type="email" id="mail" >
+                        </div>
+                        <div class="champ" >
+                            <label class="labInfoPerso" for="age">Age : </label>
+                            <input name="age" type="number" id="age" >
+                        </div>
+                        <div class="champ">
+                            <Label for="choixFemme">Homme</Label>
+                            <input type="radio" id="choixFemme" name="hommmeFemme" value="email"/>
+                            <Label for="choixFemme">Femme</Label>
+                            <input type="radio" id="choixFemme" name="hommmeFemme" value="email"/>
+                        </div>
+                        <div class="champ">
+                            <Label class="labInfoPerso" for="choixFemme">Choississez votre pays :</Label>
+                            <select id="choixVille">
+                                <optgroup label="France">
+                                    <option>Valenciennes</option>
+                                    <option>Valenciennes 2</option>
+                                    <option>Valenciennes 3</option>
+                                </optgroup>
+                                <optgroup label="Angletterre">
+                                    <option>Londres 1</option>
+                                    <option>Londres 2</option>
+                                    <option>Londres 3</option>
+                                </optgroup>
+                                <optgroup label="Italie">
+                                    <option>Rome 1</option>
+                                    <option>Rome 2</option>
+                                    <option>Rome 3</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Compétences/Expérience</legend>
+                        <div>
+                            <label class="labCompXp" for="html">Html : </label>
+                            <input name="html" type="checkbox" id="html" >
+                        </div>
+                        <div>
+                            <label class="labCompXp" for="css">CSS : </label>
+                            <input name="css" type="checkbox" id="css" >
+                        </div>
+                        <div>
+                            <label class="labCompXp" for="javascript">Javascript : </label>
+                            <input name="javascript" type="checkbox" id="javascript" >
+                        </div>
+                        <div>
+                            <label class="labCompXp" or="php">Php : </label>
+                            <input name="php" type="checkbox" id="php" >
+                        </div>
+                        <div>
+                            <label class="labCompXp" for="sql">SQL : </label>
+                            <input name="sql" type="checkbox" id="sql" >
+                        </div>
+                        <div>
+                            <label class="labCompXp" for="seo">Seo : </label>
+                            <input name="seo" type="checkbox" id="hseotml" >
+                        </div>
+                        <textarea id="areaXp" name="areaXp" rows="10" cols="60" placeholder="Décrivez une expérience" ></textarea>
+                    </fieldset>
+                    <fieldset id="send">
+                        <legend>Validation</legend>
+                        <div class="champ" >
+                            <label class="labInfoPerso" for="pass">Entrez votre mot de passe : </label>
+                            <input name="pass" type="password" id="pass" >
+                        </div>
+                        <div class="champ">
+                            <input type="submit" value="envoyer" >
+                        </div>
+                    </fieldset>
+                </form> -->
+                <h2 id="nouKontaktey"> Contactez nous!</h2>
+                <div id="mainContactDiv">
+                    <div id="contactForm">
+                           <form method="get" action="#">
+                    <fieldset id="contact">
+                        <legend>Contact</legend>
+                        <div  class="champs" id="nomPrénom">
+                            <select id="civilité">
+                                <option value="Monsieur">Monsieur</option>
+                                <option value="Madame">Madame</option>
+                            </select>
+                            <input type="text" id="contactTextLastName" placeholder="Nom" required>
+                            <input type="text" id="contactTextName" placeholder="Prénom" required>
+                           
+                        </div>
+                        <div id="divMail" class="champs">
+                            <input type="email" id="mail" placeholder="E-Mail" required>
+                        </div>
+                        <div class="champs">
+                            <select id="pkTuContact">
+                                <option value="defaultSelect" selected >Choissisez le motif de votre demande</option>
+                                <option value="commandeObjetManquant" >Je n'ai pas reçu une partie de ma commande</option>
+                                <option value="commandeObjetCassey" >Un ou plusieurs articles de ma commande est détérioré</option>
+                                <option value="commandeOuEstCharlie" >Où se trouve ma commande</option>
+                                <option value="infoProduit" >J'ai besoin d'informations sur un produit</option>
+                                <option value="autreDivers" >Mon choix n'est pas dans la liste</option>
+                            </select>
+                        </div>
+                    <div  class="champs">
+
+                    </div>
+                    <textarea  class="champs" name="precisionDemande" id="commentaire" cols="30" rows="10"></textarea>
+                    <div class="champs">
+                        <label for="joinFichier">Joindre un fichier : </label> 
+                        <input type="file" id="joinFichier">
+
+                    </div>
+                    <div class="champs">
+                        <label for="checkRgpd">J'accepte de partager mes données blabla</label>
+                        <input type="checkbox" id="checkRgpd" required>
+                    </div>
+                    <div class="champs">
+                        <input type="submit" id="submitButton">
+                    </div>
+                    </fieldset>
+                   
+                </form>
+                    </div >
+                         <div id="googleEmbed">
+
+                        <iframe id="mapFramed" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14403.643304855672!2d3.462183322244177!3d50.343644031331905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sart%20deco%20shop!5e0!3m2!1sfr!2sfr!4v1697035631721!5m2!1sfr!2sfr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                
+        </main>
+        <footer>
+           <h6>Copyright Mobil Co 2023</h6>
+        </footer>
+    </body>
+</html>
